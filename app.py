@@ -22,6 +22,7 @@ except Exception as e:
 
 # Create the Dash application
 app = Dash(__name__)
+server = app.server
 
 app.layout = html.Div([
     dcc.Tabs([
