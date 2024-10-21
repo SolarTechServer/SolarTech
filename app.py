@@ -3,8 +3,8 @@ from dash import Dash, dcc, html, Input, Output
 import plotly.express as px
 
 # File paths
-solartech_file = 'C:/CODING/PV/data/SolarTech/ST_data.csv'
-pv_file = 'C:/CODING/PV/data/PV/PV_data.csv'
+solartech_file = 'data/SolarTech/ST_data.csv'
+pv_file = 'data/PV/PV_data.csv'
 
 # Read SolarTech data
 try:
